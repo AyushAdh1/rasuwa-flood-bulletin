@@ -38,6 +38,11 @@ jobs:
         run: |
           python scripts/test_stamp.py
           python scripts/test_seo.py
+      # Do not publish an artifact whose donation QR or accounts drifted.
+      - name: Check donation QR images and accounts
+        run: |
+          python scripts/test_check_donate.py
+          python scripts/check_donate.py
       - name: Install Playwright Chromium
         run: |
           python -m pip install playwright

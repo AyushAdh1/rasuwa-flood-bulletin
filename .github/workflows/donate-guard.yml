@@ -1,0 +1,29 @@
+# Donation QR / account guard.
+# A swapped QR image or account number on donate.html sends donors' money to
+# someone else. This fails when either drifts from scripts/donate_pins.json.
+# Runs on every PR so the ruleset on main can require it; while Pages still
+# serves the main branch, a push is live before pages.yml runs.
+name: donate-guard
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check the guard itself
+        run: python scripts/test_check_donate.py
+      - name: Check donation QR images and accounts
+        run: python scripts/check_donate.py

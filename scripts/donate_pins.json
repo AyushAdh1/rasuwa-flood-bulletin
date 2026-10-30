@@ -1,0 +1,41 @@
+{
+  "_note": "Pinned donation details. Change only after matching the official PDF; scripts/check_donate.py --print shows current values. Owner review required (.github/CODEOWNERS).",
+  "official_source": "https://giwmscdnone.gov.np/media/pdf_upload/QR%20code%20all%20bank_lawfbcq.pdf",
+  "qr": {
+    "img/pm-disaster-qr.png": "3a4b0fbae5e3f2133a97ec237a2f11792d839f156ac9cdaeddf12ba12acba6b0",
+    "img/pm-relief-qr.png": "2b501e33374e5d87339c822caf1564d00677db9cb72b49c5e3573ef723a49e85",
+    "img/qr-adbl-disaster.png": "68fce0876991f61e62646c7c8f9b9cab5f45262909f8218e7b3c075bf96d0d77",
+    "img/qr-ebl-disaster.png": "2361e5e5b9e158bd2e95579ee9a2c9b6adeca1bc29a70eccc92c1e2136d9268e",
+    "img/qr-gibl-disaster.png": "1960a816d0f4b0baacaf7f21d81bbd690b02659246cfc1ae12b0d9a66c29ad44",
+    "img/qr-nabil-disaster.png": "b572aaf0a2e3d878e3f98145ff7f19eeaa4fda476ccf312f207b18d68f1a9048",
+    "img/qr-nbl-disaster.png": "cddb1f21810bcf3c19175a283c87ff6e40f8ad7463e81fa69a8c9b8296a6ee27",
+    "img/qr-rbb-disaster.png": "df4b8d014a31a56575846b7e589aed9ead6c7c47192380a5de017c681efcb06b",
+    "img/qr-rbb-relief.png": "758b4560ff820b2f5b661a64d4414ee50782abdaf0177ea21ff12107a890ffb9",
+    "img/qr-scb-disaster.png": "8047686cb239bd73c88a1ad6236241a7469b10cdbca7b5b39ead6a5d21d8423b"
+  },
+  "data_acct": [
+    "00100105200270",
+    "00101102200012",
+    "00200100510039000001",
+    "00211600510039000003",
+    "00401010000057",
+    "00411010000005",
+    "0100201002907014",
+    "01013243801",
+    "01905631210046",
+    "02013243801",
+    "1130100000006006",
+    "1130100003762001",
+    "1430100000025006",
+    "1430100001164001",
+    "1710017505285",
+    "ADBLNPKA",
+    "EVBLNPKA",
+    "GLBBNPKA",
+    "HIMANPKA",
+    "NARBNPKA",
+    "NEBLNPKA",
+    "RBBANPKA",
+    "SCBLNPKA"
+  ]
+}

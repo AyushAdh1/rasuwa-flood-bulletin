@@ -1,0 +1,17 @@
+# Changes here can redirect donations or switch off the check that guards them.
+# Takes effect once the main ruleset requires review from Code Owners.
+# Add a second owner so nobody approves their own change alone.
+
+# Donation page, QR images, payment logos
+/donate.html                   @nirajbhusal
+/img/qr-*                      @nirajbhusal
+/img/pm-*-qr.png               @nirajbhusal
+/img/pay/                      @nirajbhusal
+
+# Pins and the guard
+/scripts/donate_pins.json      @nirajbhusal
+/scripts/check_donate.py       @nirajbhusal
+/scripts/test_check_donate.py  @nirajbhusal
+
+# Workflows and this file
+/.github/                      @nirajbhusal
